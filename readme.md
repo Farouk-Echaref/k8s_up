@@ -200,8 +200,12 @@ spec:
 
 ```
 
+## Chap6 (Labels and annotations):
 
+- retrieve info based on labels:
 
-
-
-
+```bash
+kubectl get deployments -L label-name
+kubectl get pods --show-labels
+kubectl get pods --selector=""
+```
